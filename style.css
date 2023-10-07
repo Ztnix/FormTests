@@ -1,0 +1,92 @@
+html{
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+}
+
+#bannerleft{
+    height: 1000px;
+    width: 600px;
+}
+
+.rightpanel{
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+}
+
+.toppanel{
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 250px;
+    padding-top: 150px;
+}
+
+.midformarea{
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(199, 199, 199);
+    padding-top: 0px;  
+    padding-bottom: 60px;
+}
+
+.contentmid{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 250px;
+    height: 200px;
+}
+
+#faku{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.formclass{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.inputfield{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    padding-right: 90px;
+}
+
+.lowerformarea{
+    padding-left: 50px;
+    padding-right: 250px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+#foku{
+    background-color: rgb(64, 74, 212);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+
+a,a:visited{
+    color: rgb(55, 0, 255);
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+
+
+
+.errorinput:focus{
+    border: 2px solid red;
+    border-radius: 4px;
+}
